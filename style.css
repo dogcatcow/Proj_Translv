@@ -1,3 +1,21 @@
-body {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+table {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 80%;
+}
+
+table td {
+  word-wrap: break-word; /* All browsers since IE 5.5+ */
+  overflow-wrap: break-word; /* Renamed property in CSS3 draft spec */
+}
+
+th,
+td {
+  border: 1px solid black;
 }
